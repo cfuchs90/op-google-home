@@ -1,0 +1,61 @@
+body {
+  font-family: arial;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: empty;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li a{
+  font-size: 13px;
+  color: #000000;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.searchmask {
+  margin-top: 3rem;
+  width: 400px;
+}
+
+.searchmask img {
+  margin: 0 auto;
+}
+
+.searchmask input {
+  width: 100%;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.searchButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
+img, button, input {
+  display: block;
+}
